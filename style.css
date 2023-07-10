@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Lato&family=Noto+Sans:wght@400;600&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.header-top{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    padding: 70px 210px 0px 210px ;
+}
+.text-area-title{
+    color: #272727;
+    font-size: 60px;
+    /* width: 50%; */
+    font-weight: 800;
+}
+.text-area-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* width: 50%; */
+}
+.main-btn{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: white;
+    border: 0;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.top-flower{
+    padding:10px 0px 0px 210px;
+    width: 100%;
+}
+.main-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.middle-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.middle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:24px ;
+    padding-top:10px ;
+    padding-bottom: 30px;
+}
+.middle{
+    border-radius: 300px 300px 0px 0px;
+}
+.middle-one{
+    background: rgba(167, 33, 98, 0.15);
+    padding: 0px 10px 0px 10px;
+}
+.middle-two{
+    background: rgba(5, 151, 160, 0.15);
+    padding: 93px 10px 0px 10px;
+}
+.middle-three{
+    background: rgba(71, 125, 17, 0.15);
+    padding: 93px 10px 0px 10px;
+}
+.middle-container img{
+    width: 250px;
+}
+.img-three{
+    height: 250px;
+}
+.flower-title{
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+.support-system-container{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 70px 210px 60px 210px ;
+    padding-bottom: 70px;
+    gap:100px
+}
+.support-image{
+padding: 20px;
+}
+.support-title{
+padding-top: 15px;
+}
+.hot-deal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 25px;
+}
+.hot-deal-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+}
+.hot-deal-despription{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.bottom-btn{
+    margin-left: 220px;
+}
+.hot-off{
+    color: rgba(229, 84, 115, 1);
+}
+.instragram{
+    margin-top:60px ;
+    text-align: center;
+}
+.insta-title{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 800;
+}
+.insta-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.instra-image-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.instra-image-container img{
+    width: 270px;
+}
+.input-title, .input-description{
+    text-align: center;
+    padding: 5px;
+}
+.input-title{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 800;
+}
+.input-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.title-dis{
+    padding-top: 60px;
+}
+.input-section{
+    background-image: url("images/rectangle9.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 370px 0px 370px ;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.input-section input[type="email"]{
+    border: 0;
+    padding: 23px 513px 22px 22px ;
+    border-radius: 8px;
+}
+:placeholder-shown{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+.input-btn{
+    margin-left: 16px;
+}
+.footer-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    padding: 90px;
+}
+.footer-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+.footer-text-color{
+    color: #E55473;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
