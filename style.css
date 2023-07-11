@@ -63,12 +63,17 @@
     padding-top:10px ;
     padding-bottom: 30px;
 }
+.section-main{
+    margin: 70px 210px 60px 210px ;
+}
 .middle{
     border-radius: 300px 300px 0px 0px;
+    padding-bottom:0px ;
 }
 .middle-one{
     background: rgba(167, 33, 98, 0.15);
     padding: 0px 10px 0px 10px;
+    
 }
 .middle-two{
     background: rgba(5, 151, 160, 0.15);
@@ -81,13 +86,16 @@
 .middle-container img{
     width: 250px;
 }
+.flower-title-container{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+.flower-title-container h3{
+    text-decoration: underline;
+}
 .img-three{
     height: 250px;
-}
-.flower-title{
-    padding: 10px;
-    text-align: center;
-    text-decoration: underline;
 }
 .support-system-container{
     border-radius: 8px;
@@ -183,14 +191,18 @@ padding-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0px 370px 0px 370px ;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    /* margin: 70px 370px 370px 70px ; */
+    /* margin-top: 60px;
+    margin-bottom: 60px; */
+    background-repeat: no-repeat;
+    margin: 60px 240px 60px 240px ;
+    padding: 0px 240px 60px 240px;
 }
 .input-section input[type="email"]{
     border: 0;
     padding: 23px 513px 22px 22px ;
     border-radius: 8px;
+
 }
 :placeholder-shown{
     color: rgba(39, 39, 39, 0.60);
