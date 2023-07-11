@@ -155,9 +155,10 @@ padding-top: 15px;
     display: flex;
     justify-content: center;
     gap: 25px;
+    margin: 0px 210px 0px 210px;
 }
 .instra-image-container img{
-    width: 270px;
+    width: 352px;
 }
 .input-title, .input-description{
     text-align: center;
