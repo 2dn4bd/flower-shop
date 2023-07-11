@@ -41,7 +41,7 @@
     color: #272727;
     text-align: center;
     font-family: Lato;
-    font-size: 24px;
+    font-size: 33px;
     font-weight: 800;
     margin-top: 50px;
 }
@@ -149,7 +149,7 @@ padding-top: 15px;
 }
 .insta-title{
     color: #272727;
-    font-size: 24px;
+    font-size: 33px;
     font-weight: 800;
 }
 .insta-description{
@@ -174,7 +174,7 @@ padding-top: 15px;
 }
 .input-title{
     color: #272727;
-    font-size: 24px;
+    font-size: 33px;
     font-weight: 800;
 }
 .input-description{
@@ -240,4 +240,39 @@ padding-top: 15px;
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
+}
+.feature-heading{
+    text-align: center;
+    font-size: 33px;
+    color: #272727;
+    font-weight: 800;
+}
+.feature-title{
+    font-size: 60px;
+    font-weight: 800;
+    color: #272727;
+    padding: 0px 0px 20px 0px;
+}
+li>img{
+    width: 20px;
+    padding-top: 5px;
+}
+li{
+    list-style: none;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 3px;
+}
+#our-feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 210px 0px 210px ;
+    flex-basis: initial;
+}
+.feature-image-edit{
+    width: 100%;
 }
